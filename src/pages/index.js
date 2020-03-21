@@ -13,7 +13,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>SQL-based Life Management</h1>
-            <p>TinyDev helps developers and businesses automate daily routines and makes your data a first-class citizen, in three easy steps.</p>
+            <p>TinyDev helps developers automate daily routines and makes their data present and useful, all in three easy steps.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -75,12 +75,18 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Give it a spin</h2>
+                    <h2>Give it a spin.</h2>
                     <p>No credit card needed.</p>
                 </div>
 
-                <div className={"button"}>
-                    <a href="https://dashboard.tinydevcrm.com" target={"_blank"} rel={"noopener noreferrer"}>Register</a>
+                <div
+                    className={"button"}>
+                    <a
+                        href="https://dashboard.tinydevcrm.com"
+                        target={"_blank"}
+                        rel={"noopener noreferrer"}>
+                            Register
+                    </a>
                 </div>
             </div>
         </div>
