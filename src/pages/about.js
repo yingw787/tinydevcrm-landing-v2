@@ -3,8 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import informationImage from "../../static/images/foss.svg";
-import eventImage from "../../static/images/Event-managment.svg";
-import ProductivityImage from "../../static/images/Increase-Productivity.svg";
+import eventImage from "../../static/images/os.svg";
+import ProductivityImage from "../../static/images/secure_data.svg";
 import happinessImage from "../../static/images/Make-happiness.svg";
 
 const AboutPage = () => (
@@ -33,8 +33,8 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Event"} src={eventImage}/>
-                            <h3>Manage Events</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
+                            <h3>API-driven</h3>
+                            <p>TinyDev exposes your data through APIs, to give you scripting superpowers.</p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,8 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Raise productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
+                            <h3>Security-oriented</h3>
+                            <p>TinyDev seeks to implement <a href="https://standardnotes.org/privacy">the Standard Notes privacy manifesto</a>.</p>
                         </div>
                     </div>
 
