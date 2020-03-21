@@ -1,3 +1,5 @@
+@import './solarized.scss';
+
 $break-small: 719px;
 
 body {
@@ -15,15 +17,15 @@ body {
   }
 
   a {
-    color: #8953B7;
+    color: $blue;
 
     &:hover, &:active {
-      color: #8953b7;
+      color: $blue;
     }
   }
 
   header {
-    background-color: #FDFAFF;
+    background-color: $base2;
     display: block;
     padding: 39px 0;
 
@@ -47,7 +49,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: $blue;
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
@@ -81,7 +83,7 @@ body {
   .page-header {
     text-align: center;
     padding: 100px 10px 100px 10px;
-    background-color: #fdfaff;
+    background-color: $base2;
     border-radius: 0px 0px 40px 40px;
 
     h1 {
@@ -191,7 +193,7 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953B7;
+    background-color: $blue;
     color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
@@ -232,7 +234,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953B7;
+        color: $blue;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -299,7 +301,7 @@ body {
   }
 
   .bg-color {
-    background-color: #fdfaff;
+    background-color: $base2;
     padding: 52px 0;
   }
 
@@ -377,14 +379,14 @@ body {
               color: #797283;
 
               &:hover, &:active {
-                color: #8953b7;
+                color: $blue;
               }
             }
           }
         }
 
         .links__special {
-          background-color: #8953b7;
+          background-color: $blue;
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
