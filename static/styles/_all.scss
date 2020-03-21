@@ -64,6 +64,20 @@ body {
     }
   }
 
+  .constrained {
+    p {
+      padding-left: calc(25%);
+      padding-right: calc(25%);
+    }
+
+    @media screen and (max-width: $break-small) {
+      p {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+
   .page-header {
     text-align: center;
     padding: 100px 10px 100px 10px;
@@ -150,7 +164,7 @@ body {
 
       .thumbnail {
         img {
-          max-width: 100%;
+          max-width: 250px;
         }
       }
     }

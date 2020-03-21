@@ -13,7 +13,9 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>SQL-based Life Management</h1>
-            <p>TinyDev helps developers automate their personal and professional routines, by making their life's data present and pleasant to use.</p>
+            <div className={"constrained"}>
+                <p>TinyDev helps developers automate their personal and professional routines, by making their life's data present and pleasant to use.</p>
+            </div>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -23,7 +25,7 @@ const IndexPage = () => (
             <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-12 centered feature__content"}>
-                            <h2>Integrate TinyDev into your life with three easy steps.</h2>
+                            <h2>Start using TinyDev in three easy steps.</h2>
                         </div>
                     </div>
                 </div>
