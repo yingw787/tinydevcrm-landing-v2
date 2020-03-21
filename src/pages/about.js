@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import informationImage from "../../static/images/Information-document.svg";
+import informationImage from "../../static/images/foss.svg";
 import eventImage from "../../static/images/Event-managment.svg";
 import ProductivityImage from "../../static/images/Increase-Productivity.svg";
 import happinessImage from "../../static/images/Make-happiness.svg";
@@ -12,22 +12,21 @@ const AboutPage = () => (
         <SEO title="About"/>
 
         <div className={"page-header"}>
-            <h2>What’s HiStaff?</h2>
-            <p>HiStaff is a service that boost the staff’s productivity by offering new ways<br />to increase employee motivation and happiness.</p>
+            <h1>More about TinyDev</h1>
         </div>
 
         <div className={"container"}>
             <div className={"targets"}>
                 <div className={"title"}>
-                    <h2>Our Targets</h2>
+                    <h2>What's different about TinyDev?</h2>
                 </div>
 
                 <div className={"row"}>
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
+                            <h3>Free and Open Source Software</h3>
+                            <p>The TinyDev stack is MIT-licensed and compliant with open-source standards. No vendor lock-in, and no tricks.</p>
                         </div>
                     </div>
 
