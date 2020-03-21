@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import featureImage from "../../static/images/dashboard.svg";
 import thumbnailEvent from "../../static/images/add_file.svg"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
+import thumbnailBoard from "../../static/images/view.svg"
+import thumbnailNews from "../../static/images/notify.svg"
 
 const IndexPage = () => (
     <Layout>
