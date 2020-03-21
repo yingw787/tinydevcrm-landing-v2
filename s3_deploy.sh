@@ -2,4 +2,4 @@
 
 rm -rf public/
 gatsby build
-aws s3 sync public aws s3 sync ./public s3://tinydevcrm.com --profile s3_personal
+aws s3 sync ./public s3://tinydevcrm.com --profile s3_personal
