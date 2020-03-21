@@ -35,7 +35,6 @@ module.exports = {
                     families: ['PT Serif'],
                 },
                 custom: {
-                    families: ['Inter'],
                     urls: ['/fonts/fonts.css']
                 }
             }
