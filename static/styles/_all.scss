@@ -29,8 +29,8 @@ body {
 
     .logo {
       img {
-        width: 151px;
-        height: 44px;
+        width: 200px;
+        // height: 44px;
       }
     }
 
@@ -51,6 +51,14 @@ body {
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
+        }
+      }
+    }
+
+    @media screen and (max-width: $break-small) {
+      .logo {
+        img {
+          width: 150px;
         }
       }
     }
