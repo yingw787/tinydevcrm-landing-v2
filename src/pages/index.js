@@ -13,12 +13,22 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>SQL-based Life Management</h1>
-            <p>TinyDev helps developers automate daily routines and makes their data present and useful, all in three easy steps.</p>
+            <p>TinyDev helps developers automate daily routines and makes their data present and useful.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
         <div className={"container"}>
             <div className={"features"}>
+
+            <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-12 centered feature__content"}>
+                            <h2>Integrate TinyDev in your life with three easy steps.</h2>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6 first"}>

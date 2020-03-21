@@ -326,6 +326,10 @@ body {
     }
 
     .widget__item {
+      .logo img {
+        width: 200px;
+      }
+
       @media screen and (max-width: $break-small) {
         padding: 15px 0 0;
       }
