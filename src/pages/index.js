@@ -2,8 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
+import featureImage from "../../static/images/dashboard.svg";
+import thumbnailEvent from "../../static/images/add_file.svg"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
 
@@ -13,7 +13,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>SQL-based Life Management</h1>
-            <p>TinyDev helps developers automate daily routines and makes their data present and useful.</p>
+            <p>TinyDev helps developers automate their personal and professional routines, by making their life's data present and pleasant to use.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -23,7 +23,7 @@ const IndexPage = () => (
             <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-12 centered feature__content"}>
-                            <h2>Integrate TinyDev in your life with three easy steps.</h2>
+                            <h2>Integrate TinyDev into your life with three easy steps.</h2>
                         </div>
                     </div>
                 </div>
