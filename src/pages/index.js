@@ -15,7 +15,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>SQL-based Life Management</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <p>TinyDev helps developers and businesses automate daily routines and makes your data a first-class citizen.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,8 +31,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Batch Upload and Manual Entry</h2>
+                                <p>Save time and tie into your existing workflows, while also retaining your control over your data.</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Materialized View Generation</h2>
+                                <p>Your apps get the info they need, by referencing the same source of truth.</p>
                             </div>
                         </div>
 
@@ -112,11 +112,11 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <p>ahhoh</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"} rel={"noopener noreferrer"}>Get Started</a>
+                    <a href="https://dashboard.tinydevcrm.com" target={"_blank"} rel={"noopener noreferrer"}>Register</a>
                 </div>
             </div>
         </div>
