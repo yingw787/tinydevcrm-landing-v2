@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import informationImage from "../../static/images/foss.svg";
 import eventImage from "../../static/images/os.svg";
 import ProductivityImage from "../../static/images/secure_data.svg";
-import happinessImage from "../../static/images/Make-happiness.svg";
+import happinessImage from "../../static/images/longetivity.svg";
 
 const AboutPage = () => (
     <Layout>
@@ -51,8 +51,8 @@ const AboutPage = () => (
                     <div className={"col-6"}>
                         <div className={"item"}>
                             <img alt={"Happiness"} src={happinessImage}/>
-                            <h3>Boost motivation and happiness</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
+                            <h3>Longetivity</h3>
+                            <p>TinyDev seeks to implement <a href="https://standardnotes.org/longevity">the Standard Notes longetivity statement</a>.</p>
                         </div>
                     </div>
                 </div>
