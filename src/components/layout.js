@@ -55,7 +55,7 @@ const Layout = ({children}) => (
                                         <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
                                         <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
+                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} rel={"noopener noreferrer"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
                                     </ul>
                                 </ul>
                             </div>
@@ -77,10 +77,10 @@ const Layout = ({children}) => (
                         <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                    <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
-                                    <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
+                                    <a href="https://twitter.com/histaffio" target={"_blank"} rel={"noopener noreferrer"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                                    <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} rel={"noopener noreferrer"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
+                                    <a href="https://github.com/histaff" target={"_blank"} rel={"noopener noreferrer"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
+                                    <a href="https://www.instagram.com/histaff.io/" target={"_blank"} rel={"noopener noreferrer"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
                                 </div>
                             </div>
                         </div>
