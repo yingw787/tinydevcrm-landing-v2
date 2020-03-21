@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
+        title: `TinyDevCRM`,
         description: `SQL-based Life Management`,
-        author: `@mostafasoufi`,
+        author: `@yingw787`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
                 background_color: `#663399`,
                 theme_color: `#FF54AC`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/histaff.png`, // This path is relative to the root of the site.
+                icon: `${__dirname}/static/images/logo_sm.png`, // This path is relative to the root of the site.
             },
         },
         `gatsby-plugin-sass`,
